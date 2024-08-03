@@ -1,0 +1,66 @@
+/* blog.css */
+
+.blog-post-container {
+  background-color: #f9f9f9;
+  padding: 40px;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', serif;
+}
+
+.blog-post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title, .blog-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.blog-title::placeholder, .blog-subtitle::placeholder {
+  color: #999;
+}
+  
+.blog-content {
+  min-height: 500px; /* Increased height to simulate page length */
+  font-size: 18px;
+  line-height: 1.6;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 10px;
+  margin-bottom: 100px; /* Increased margin to simulate page break */
+  width: 100%;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #929292;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #353535;
+}
